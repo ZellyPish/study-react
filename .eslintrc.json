@@ -6,7 +6,8 @@
   "extends": [
     "plugin:react/recommended",
     "standard-with-typescript",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "plugin:react/jsx-runtime"
   ],
   "overrides": [],
   "parser": "@typescript-eslint/parser",
@@ -16,5 +17,12 @@
     "project": ["tsconfig.json"]
   },
   "plugins": ["react"],
-  "rules": {}
+  "rules": {
+    "@typescript-eslint/no-floating-promises": "off"
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  }
 }

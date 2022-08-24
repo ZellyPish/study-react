@@ -1,5 +1,5 @@
 import { Global } from '@emotion/react'
-import React, { FC } from 'react'
+import { FC } from 'react'
 import reset from 'styles/reset'
 
 const App: FC = () => {
