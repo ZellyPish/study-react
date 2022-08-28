@@ -5,6 +5,7 @@ const font = css`
   html {
     font-family: 'Noto Sans KR', sans-serif;
   }
+  
 `
 
 export default font
